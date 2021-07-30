@@ -8,10 +8,13 @@ const Auth = () => {
             <div className="page-section">
                 <div className="left-section">
                     <div className="left-wrapper">
-                        <h4 className="page-header"><b>Asgard</b></h4>
+                        <h4 className="page-header"><b>Asguard</b></h4>
                         <p className="para-text">A cloud based community for you to connect with fellow Asgardians</p>
                     </div>
                 </div>
+                <select name="" id="" className="select">
+                    <option value="EN-US">EN-US</option>
+                </select>
                 <img className="svg-img" src="../assets/img/celebrating.svg" alt="svg"/>
                     <div className="right-section">
                         <div className="form-container">
