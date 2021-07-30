@@ -65,6 +65,7 @@ label {
     margin-right: 15px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .brand-btn {
     background: #eee;
@@ -75,9 +76,11 @@ label {
     flex-direction: column;
     margin-right: 15px;
     border-radius: 4px;
+    cursor: pointer;
 }
 .link {
     color: dodgerblue;
+    text-decoration: none;
 }
 .or-link {
     text-align: center;
@@ -115,6 +118,11 @@ label {
 .meter-wrapper {
     display: flex;
 }
+.select {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 @media screen and (max-width:600px) {
     .page-section {
         flex-direction: column;
@@ -131,5 +139,8 @@ label {
     }
     .right-section {
         padding: 40px;
+    }
+    .select {
+        display: none;
     }
 }

@@ -8,18 +8,21 @@ const Auth = () => {
             <div className="page-section">
                 <div className="left-section">
                     <div className="left-wrapper">
-                        <h4 className="page-header"><b>Asgard</b></h4>
+                        <h4 className="page-header"><b>Asguard</b></h4>
                         <p className="para-text">A cloud based community for you to connect with fellow Asgardians</p>
                     </div>
                 </div>
+                <select name="" id="" className="select">
+                    <option value="EN-US">EN-US</option>
+                </select>
                 <img className="svg-img" src="../assets/img/celebrating.svg" alt="svg"/>
                     <div className="right-section">
                         <div className="form-container">
                             <h3>Sign Up to Asguard</h3>
-                            <p className="para-text">Already have an account? <span className="link">Login</span></p>
+                            <p className="para-text">Already have an account? <a href="/#" className="link">Login</a></p>
                             <div className="btn-container">
-                                <a className="google-btn"> <img src="../assets/img/google.png" alt="Google"
-                                                                className="icon"/>Sign up with Google</a>
+                                <div className="google-btn"> <img src="../assets/img/google.png" alt="Google"
+                                                                className="icon"/>Sign up with Google</div>
                                 <div className="brand-btn"><img src="../assets/img/facebook.png" alt="Facebook"
                                                                 className="icon"/></div>
                                 <div className="brand-btn"><img src="../assets/img/apple.png" alt="Apple"
@@ -41,8 +44,8 @@ const Auth = () => {
                                 <div className="checkbox-wrapper">
                                     <input type="checkbox"/>
                                     <span className="checkbox-text">By creating account you agree to accept our
-              <span className="link">Privacy policy</span><span className="link"> Terms and condition</span> and
-              <span className="link"> Notification Settings</span></span
+              <a href="/#" className="link"> Privacy policy</a><a href="/#" className="link"> Terms and condition</a> and
+              <a className="link" href="/#"> Notification Settings</a></span
                                     >
                                 </div>
                                 <Button/>
